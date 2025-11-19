@@ -241,6 +241,10 @@ body {
     line-height: 1;
     margin-bottom: 20px;
     letter-spacing: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .gradient-text {
@@ -249,6 +253,13 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     animation: shimmer 3s infinite;
+}
+
+.base-logo-text {
+    height: 120px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 @keyframes shimmer {
@@ -879,7 +890,11 @@ body {
     }
 
     .hero-title {
-        font-size: 60px;
+        font-size: 80px;
+    }
+
+    .base-logo-text {
+        height: 80px;
     }
 
     .hero-subtitle {
@@ -916,7 +931,11 @@ body {
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 48px;
+        font-size: 70px;
+    }
+
+    .base-logo-text {
+        height: 70px;
     }
 
     .hero-cta {
